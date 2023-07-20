@@ -23,7 +23,7 @@ function Login() {
         navigation("/")
       }
     } catch (error) {
-      alert(error)
+      console.log(error)
     }
   }
 
